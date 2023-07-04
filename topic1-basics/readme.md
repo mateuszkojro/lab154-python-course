@@ -1,4 +1,6 @@
-# Topic 1 Basics
+# Topic 1: Basics
+
+Some initial information in: (1_program_flow.ipynb)[https://github.com/mateuszkojro/lab154-python-course/blob/main/topic1-basics/1_program_flow.ipynb]
 
 ## Exercise 1
 
