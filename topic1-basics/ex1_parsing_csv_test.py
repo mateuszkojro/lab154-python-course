@@ -4,7 +4,7 @@ from ex1_parsing_csv import parse_csv
 
 class TestParseCSV(unittest.TestCase):
     def test_parse_ex_sample1(self):
-        with open("assets/ex1_sample1.csv", "r") as f:
+        with open("topic1-basics/assets/ex1_sample1.csv", "r") as f:
             self.assertEqual(
                 parse_csv(f.read()),
                 {
