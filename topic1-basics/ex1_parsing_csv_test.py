@@ -8,9 +8,9 @@ class TestParseCSV(unittest.TestCase):
             self.assertEqual(
                 parse_csv(f.read()),
                 {
-                    "A": ["aa", 1, 1.1],
-                    "B": ["bb", 2, 2.2],
-                    "C": ["cc", 3, 3.3],
+                    "A": ["aa", "bb", "cc"],
+                    "B": [1, 2, 3],
+                    "C": [1.1, 2.2, 3.3],
                 },
             )
 
