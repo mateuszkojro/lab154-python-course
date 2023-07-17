@@ -4,9 +4,11 @@
 
 Write a program allowing for a 2 player game of tick tack toe, board should be
 displayed in the console and the application should be able to determine 
-if the game has ended.
+if the game has ended and who was the winner (if there was one).
 
-# Example game
+### Example game
+
+This is just the suggestion you can change the design in any way you want.
 
 Program startup screen:
 ```
@@ -17,7 +19,7 @@ Current board
 2 | | | |
 3 | | | |
 
-It 'X' term, enter position:
+It's 'X' turn, enter position:
 ```
 
 followed by the player 1 input:
@@ -36,7 +38,7 @@ Current board
 2 | | | |
 3 | | | |
 
-It 'O' term, enter position:
+It's 'O' turn, enter position:
 ```
 
 and player 2 input:
@@ -55,7 +57,7 @@ Current board
 2 | | | |
 3 | | | |
 
-It 'O' term, enter position:
+It's 'X' term, enter position:
 ```
 
 After some time:
@@ -68,7 +70,7 @@ Current board
 2 | |X| |
 3 | |O| |
 
-It 'X' term, enter position:
+It's 'X' turn, enter position:
 ```
 
 Player 2 input:
