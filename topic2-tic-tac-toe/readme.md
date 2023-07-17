@@ -1,0 +1,92 @@
+# Topic 2 - Tick tack toe
+
+## Exercise description
+
+Write a program allowing for a 2 player game of tick tack toe, board should be
+displayed in the console and the application should be able to determine 
+if the game has ended.
+
+# Example game
+
+Program startup screen:
+```
+Current board
+
+   1 2 3
+1 | | | |
+2 | | | |
+3 | | | |
+
+It 'X' term, enter position:
+```
+
+followed by the player 1 input:
+```
+1
+1
+```
+(this means that player enters `1` and presses `enter` two times)
+
+output:
+```
+Current board
+
+   1 2 3
+1 |X| | |
+2 | | | |
+3 | | | |
+
+It 'O' term, enter position:
+```
+
+and player 2 input:
+
+```
+2
+1
+```
+
+output:
+```
+Current board
+
+   1 2 3
+1 |X|O| |
+2 | | | |
+3 | | | |
+
+It 'O' term, enter position:
+```
+
+After some time:
+
+```
+Current board
+
+   1 2 3
+1 |X|O| |
+2 | |X| |
+3 | |O| |
+
+It 'X' term, enter position:
+```
+
+Player 2 input:
+```
+3
+3
+```
+
+output:
+
+```
+Current board
+
+   1 2 3
+1 |X|O| |
+2 | |X| |
+3 | |O|X|
+
+GAME OVER!
+Player 'X' won!
+```
