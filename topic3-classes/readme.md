@@ -8,13 +8,12 @@
 Convert the the game from topic2 to the object oriented style e.g:
 
 ```python
-
 game = TicTackToe('X', 'O')
 
-while !game.check_winner():
+while not game.check_winner():
     print(game)
-    x = input()
-    y = input()
+    x = int(input())
+    y = int(input())
     game.set(x,y)
 
 print("Game ended, player:" + game.winner()+ " won")
